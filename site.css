@@ -1,0 +1,207 @@
+/* Main Body of all webpages */
+
+	#header {
+		position:fixed;
+		top:0px;
+		left:0px;
+		width:100%;
+		color:#CCC;
+		background:#333;
+		padding:16px;
+		box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.69);
+		}
+	#footer {
+		position: fixed;
+		bottom:0px;
+		left:0px;
+		width:100%;
+		color:#CCC;
+		background:#333;
+		padding:3px;
+		box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.69);
+		}
+	html{
+		background-color: #70583E;
+		}
+	#main{
+		margin: auto;
+		width: 60%;
+		left:300px;
+		right:300px;
+		background-color:#fff;
+		box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.69);
+		}
+	#logo{
+		top:300px;
+		left:50px;
+		position:fixed;
+		z-index: -10;
+		}
+	#beans{
+		top:200px;
+		right:0px;
+		position: fixed;
+		z-index: -10;
+		}
+	#CoffeeCafe{
+		top:0;
+		left:40px;
+		position:fixed;
+		font-family: "Arial Black", Gadget, sans-serif;
+		color:#005f5f;
+		text-shadow: 2px 2px #333;
+		}		
+	p.arial{
+		font-family: Arial, Helvetica, sans-serif; 
+		}
+		  
+	h1.heading{
+		font-family: Arial, Helvetica, sans-serif;
+		color: #005f5f;
+		}
+	h2.heading{
+		font-family: Arial, Helvetica, sans-serif;
+		color: #005f5f;
+		}
+		
+		
+/* Navigation Bar */
+
+	.nav ul {
+		background-color: #333;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		}
+	.nav li {
+		font-family: 'Oswald', sans-serif;
+		font-size: 1.2em;
+		line-height: 40px;		  
+		height: 40px;
+		border-bottom: 1px solid #888;
+		}
+	.nav a {
+		 text-decoration: none;
+		 color: #fff;	
+		 display: block;	
+		 transition: .3s background-color;
+		}		 
+	.nav a:hover {
+		 background-color: #005f5f;
+		}
+	.nav a.active {
+		 background-color: #fff;
+		 color: #444;
+		 cursor: default;
+		}
+	.nav li {
+		width: 120px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+		}
+	.nav li {
+		display: inline-block;
+		margin-right: -4px;
+		}
+
+
+/* Home Page */
+
+	#placeimage{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:80%;
+		height: 80%;
+		}
+		
+	li.arial{
+		font-family: Arial, Helvetica, sans-serif; 
+		}
+		
+/* Menu Page */
+
+	th.heading{
+		font-family: Arial, Helvetica, sans-serif;
+		color: #005f5f;
+		}
+	table { 
+		color: #333;
+		font-family: Helvetica, Arial, sans-serif;
+		width:100%; 
+		border-collapse: 
+		collapse; border-spacing: 1px; 
+		}
+	td, th { 
+		border: 1px solid transparent; /* No more visible border */
+		height: 30px; 
+		transition: all 0.3s;  /* Simple transition for hover effect */
+		}
+	th {
+		background: #DFDFDF;  /* Darken header a bit */
+		font-weight: bold;
+		width: 20px;
+		}
+	td {
+		background: #FAFAFA;
+		text-align: center;
+		}
+	table, th, td {
+		border: 1px solid #363636;
+		}
+		
+		
+/* About Page */
+
+	#coffeeabout{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:100%;
+		height: 100%;
+		}
+		
+		
+/* Register Page */
+
+	form.form{
+		margin-left:auto;
+		margin-right:auto;
+		max-width: 500px;
+		background: #F7F7F7;
+		padding: 25px 15px 25px 10px;
+		font: 12px Georgia, "Times New Roman", Times, serif;
+		color: #888;
+		text-shadow: 1px 1px 1px #FFF;
+		border:1px solid #E4E4E4;
+		}
+
+/* Find Us Page */
+
+	#map{
+		width: 500px;
+		height: 400px;
+		margin-right: auto;
+		margin-left:auto;
+		}
+	#contactus{
+		text-align: center;
+		color: #005f5f;
+		}
+	#contactuscenter{
+		text-align:center;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

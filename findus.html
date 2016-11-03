@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="site.css" rel="stylesheet">
+		
+		<!--- This is the Javascript for the map -->
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+			<script>
+			  function initialize() {
+				var mapCanvas = document.getElementById('map');
+				var mapOptions = {
+				  center: new google.maps.LatLng(53.3293611, -6.2297879),
+				  zoom: 16,
+				  mapTypeId: google.maps.MapTypeId.ROADMAP
+				}
+				var map = new google.maps.Map(mapCanvas, mapOptions)
+			  }
+			  google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+			
+			<title>Coffee Cafe</title>
+			<div id="header">
+				<h1 id="CoffeeCafe">Coffee Cafe</h1>
+				<div class="nav">
+				  <ul>
+					<li class="home"><a href="index.html">Home</a></li>
+					<li class="menu"><a href="menu.html">Menu</a></li>
+					<li class="about"><a href="about.html">About</a></li>
+					<li class="register"><a href="register.html">Register</a></li>
+					<li class="findus"><a class="active" href="findus.html">Find us</a></li>
+				  </ul>
+				</div>
+			</div>
+			
+	
+	</head>
+	
+	<img src="beans.png" id="beans"/>
+	<img src="Logo.png" id="logo"/>
+	
+	<body>
+	
+	<h1 id="CoffeeCafe">Coffee Cafe</h1>
+	
+	<div id="main">
+	<br><br><br>
+	
+		<h1 id="contactus">Contact Us</h1>
+		<p id="contactuscenter">
+		Phone Number: 045186098 <br>
+		Address: Ballsbridge </p>
+		<p id="arial"></p>
+	
+	<div id="map">
+	</div>
+	
+	 <br><br><br><br><br><br><br>
+	
+	</div>
+	
+	</body>
+	
+	<footer id="footer">
+		<a href="http://facebook.com"><img src="facebook.png"/></a>
+		<a href="http://instagram.com"><img src="instagram.png" /></a>
+		<a href="http://twitter.com"><img src="twitter.png" /></a>
+	</footer>
+	
+</html>
